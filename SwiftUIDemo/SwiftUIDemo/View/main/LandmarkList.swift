@@ -15,7 +15,7 @@ struct LandmarkList: View {
 
     var body: some View {
     
-        NavigationView {
+//        NavigationView {
             // FIXME:　FIXME - 几个构造函数的参数研究
             // FIXME:　FIXME - swift 类型转换、泛型 。。。
             // FIXME:　FIXME - ipad 不能显示？
@@ -34,7 +34,7 @@ struct LandmarkList: View {
                     }
                 }.navigationBarTitle("Landmarks", displayMode: .large)
             }
-        }
+//        }
     }
 }
 

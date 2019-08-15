@@ -54,6 +54,8 @@ struct CategoryHome: View {
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
                 Text("User Profile")
+                // Xcode11 beta 5 绘制图形时会造成app崩溃。苹果官网已有提示。
+//                ProfileHost()
             }
             // MARK: - MARK - xcode11 beta 4
 //            .navigationBarItems(trailing: NavigationLink(destination: ProfileHost(), label: {

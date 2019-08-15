@@ -22,7 +22,7 @@ struct LandmarkDetail: View {
 
 
     var body: some View {
-        NavigationView {
+//        NavigationView {
             VStack(alignment: .center, spacing: 0) {
 
                 MapView(coordinate: userData.landmarks[landmarkIndex].locationCoordinate)
@@ -64,7 +64,7 @@ struct LandmarkDetail: View {
 
                 Spacer()
             }.navigationBarTitle(Text(landmark.name), displayMode: .inline)
-        }
+//        }
     }
 
 }

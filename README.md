@@ -1,4 +1,4 @@
 # SwiftUI
 SwiftUI Demos 
 
-* Official tutorial(Xcode11 beta 5)	- tag: beta5tutorial
+* Official tutorial(Xcode11 beta 5)	-- **TAG:** `beta5tutorial`
